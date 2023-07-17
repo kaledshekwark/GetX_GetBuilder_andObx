@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get_x_builder_obx/View/Multipalbulder.dart';
 import 'package:get_x_builder_obx/View/Obxx.dart';
 
 import 'View/HomePage.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Obxx(),
+      home: MUltipalbulder(),
     );
   }
 }
